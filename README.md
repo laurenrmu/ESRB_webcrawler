@@ -1,0 +1,2 @@
+# ESRB_webcrawler
+This code will use a selenium web crawler to search ESRB.org for  videogame ratings that appear as NaN in the original data set. ESRB ratings that cannot be found through the site will be marked as Unknown. The webcrawler code can be found in search_esrb.py. Multiprocessing was used to run multiple webdrivers at once. The resulting information will be used in Videogame KNN notebook.
